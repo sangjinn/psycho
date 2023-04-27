@@ -50,7 +50,7 @@ const EditProfilePage1 = (properties: Props) => {
   ]);
 
   const handleBackButton = () => {
-    shepherd.whip("test", "WelcomePage");
+    shepherd.whip("test", "SettingPage");
   };
   const saveUserData = async (userData: any) => {
     localStorage.setItem("userData", JSON.stringify(userData));
